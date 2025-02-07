@@ -162,7 +162,7 @@ on:
       armbian_kernel:
         description: "Select kernel version."
         required: false
-        default: "6.1.57"
+        default: "5.10.y"
         type: choice
         options:
           - 5.10.160_6.1.43
@@ -184,11 +184,11 @@ on:
       kernel_repo:
         description: "Set the kernel repository."
         required: false
-        default: "niceqwer55555/kernel"
+        default: "niceqwer55555/linux-5.10.y-rk35xx"
         type: choice
         options:
           - ophub/kernel
-          - niceqwer55555/kernel
+          - niceqwer55555/linux-5.10.y-rk35xx
       kernel_usage:
         description: "Set the tags of the stable kernel."
         required: false
