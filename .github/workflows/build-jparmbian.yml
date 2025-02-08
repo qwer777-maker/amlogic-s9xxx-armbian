@@ -162,12 +162,13 @@ on:
       armbian_kernel:
         description: "Select kernel version."
         required: false
-        default: "5.10.y"
+        default: "6.1.84"
         type: choice
         options:
           - 5.10.160_6.1.43
           - 6.1.25
           - 6.1.57
+          - 6.1.84
           - 5.4.y
           - 5.10.y
           - 5.15.y
