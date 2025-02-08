@@ -75,12 +75,12 @@ armbian_release_file="etc/armbian-release"
 ophub_release_file="etc/ophub-release"
 
 # U-BOOT files download repository
-uboot_repo="https://github.com/hellotheasia/u-boot"
+uboot_repo="https://github.com/niceqwer55555/u-boot"
 # Firmware files download repository
-firmware_repo="https://github.com/ophub/firmware"
+firmware_repo="https://github.com/niceqwer55555/firmware"
 
 # Set the kernel download repository from github.com
-kernel_repo="https://github.com/ophub/kernel"
+kernel_repo="https://github.com/niceqwer55555/kernel"
 # Set the tags(kernel_xxx) of the default kernel that can be replaced via the [ -u ] parameter
 default_tags="stable"
 # Set the tags(kernel_xxx) of the specific kernel, such as 5.15.y, 6.1.y, etc.
@@ -397,7 +397,7 @@ query_kernel() {
             dev) down_kernel_list=(${dev_kernel[@]}) ;;
             beta) down_kernel_list=(${beta_kernel[@]}) ;;
             rk3588) down_kernel_list=(${rk3588_kernel[@]}) ;;
-            rk35xx) down_kernel_list=(${rk35xx_kernel[@]}) ;;
+            rk35xx) down_kernel_list=(${rk35xxjp_kernel[@]}) ;;
             rk3566jp) down_kernel_list=(${rk3566jp_kernel[@]}) ;;
             h6) down_kernel_list=(${h6_kernel[@]}) ;;
             5.x.y)
