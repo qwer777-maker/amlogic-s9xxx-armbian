@@ -397,7 +397,7 @@ query_kernel() {
             dev) down_kernel_list=(${dev_kernel[@]}) ;;
             beta) down_kernel_list=(${beta_kernel[@]}) ;;
             rk3588) down_kernel_list=(${rk3588_kernel[@]}) ;;
-            rk35xx) down_kernel_list=(${rk35xxjp_kernel[@]}) ;;
+            rk35xx) down_kernel_list=(${rk35xx_kernel[@]}) ;;
             rk3566jp) down_kernel_list=(${rk3566jp_kernel[@]}) ;;
             h6) down_kernel_list=(${h6_kernel[@]}) ;;
             5.x.y)
@@ -406,7 +406,8 @@ query_kernel() {
                 ;;
             6.x.y)
                 down_kernel_list=(${specific_6xy[@]})
-                kd="${specific_tags}"
+              #  kd="${specific_tags}"
+                kd="rk3566jp"
                 ;;
             specific)
                 down_kernel_list=(${specific_kernel[@]})
