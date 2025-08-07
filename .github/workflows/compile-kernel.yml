@@ -17,6 +17,7 @@ on:
         type: choice
         options:
           - unifreq
+          - qwer777-maker
           - rockchip-linux/kernel
           - codesnas
       kernel_version:
